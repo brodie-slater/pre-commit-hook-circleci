@@ -1,0 +1,6 @@
+- id: circleci_validate
+  name: Circle CI config validator
+  description: Checks the Circle CI configuration file syntax is correct
+  language: script
+  entry: circleci_validate.sh
+  files: ^\.circleci\/.*\.yml$
